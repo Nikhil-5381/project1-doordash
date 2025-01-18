@@ -1,0 +1,1669 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+    border: 1px solid red none;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.btn {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: rgb(248, 84, 7);
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.btn:hover {
+    background-color: rgb(216, 71, 3);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -12rem;
+}
+.header-img  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120rem;
+    height: 150rem;
+    position: absolute;
+    z-index: -11;
+    overflow-x: hidden;
+}
+.doordash {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+.door {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.doordash img {
+    height: 25px;
+}
+.up {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    color: #524d4d;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.button {
+    position: absolute;
+    margin-left: 100rem;
+    padding-top: 10px;
+    height: 3rem;
+}
+.button-2 {
+    display: none;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.near{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    height: 30rem;
+}
+.near h1{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.near svg{
+    position: absolute;
+    z-index: 999;
+    margin-right: 18rem;
+}
+.near input {
+    padding: .8rem 4rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    position: absolute;
+    z-index: -1;
+}
+.near span {
+    list-style: none;
+    overflow: hidden;
+    color: #fff;
+    background-color: rgb(248, 84, 7);
+    border-radius: 50%;
+    margin-left: 17.5rem;
+    margin-bottom: -6.5rem;
+    z-index: 99;
+    cursor: pointer;
+}
+.near p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 8px 30px;
+    height: 20px;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+.near a{
+    display: none;
+}
+.near i{
+    margin-top: -25px;
+    margin-right: 12rem;
+    cursor: pointer;
+}
+
+/* main */
+.feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.feature-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 100px;
+    margin-top: 30rem;
+    margin-bottom: 50px;
+
+}
+.row img {
+    overflow: hidden;
+    width: 18rem;
+    height: 12rem;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+.row h3 {
+    font-size: 35px;
+    font-weight: 800;
+    width: 190px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.row p {
+    
+    font-size: 20px;
+    font-weight: 500;
+    width: 220px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.row a {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(248, 84, 7);
+    margin: 0 auto;
+    margin-top: -20px;
+    cursor: pointer;
+}
+.row span {
+    list-style: none;
+    overflow: hidden;
+    color: rgb(248, 84, 7);
+    margin: 0 auto;
+    margin-bottom: -5px;
+    cursor: pointer;
+    
+}
+.eat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 4rem;
+    margin-bottom: -60px;
+}
+.eat-text {
+    height: 420px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.eat h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 320px;
+    margin-bottom: 10px;
+}
+.eat h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.eat p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 400px;
+    margin-bottom: 25px;
+}
+.eat img {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+.drink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e3f4;
+    gap: 4rem;
+    padding-bottom: 3rem;
+}
+.drink-text {
+    height: 420px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+    margin-top: 7rem;
+}
+.drink h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    width: 320px; 
+}
+.drink p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;   
+}
+.drink img {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 7rem;
+}
+
+.grocery {
+    position: relative;
+    height: 600px;
+    overflow-y: hidden;
+    margin-bottom: 50px;
+}
+.grocery img {
+    filter: brightness(50%);
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.grocery-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    margin-top: -400px;
+    height: 320px;
+    filter: brightness(100%);
+}
+.grocery h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.grocery h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.grocery p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 550px;
+    margin-bottom: 15px;
+}
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -90px;
+
+}
+.store-text {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+}
+.store h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.store p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 400px;
+    margin-bottom: 25px;
+}
+.store img {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+.gift {
+    background-color: #ffe5f9;
+    background-blend-mode: lighten;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gift h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.gift-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.help {
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid transparent;
+}
+.help img{
+    display: flex;
+    align-content: center;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+}
+.help h1{
+    font-size: 40px;
+    font-weight: 800;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: -6px;
+}
+.help p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 550px;
+    margin-bottom: 15px;
+}
+.rule p
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.help-flower {
+    margin-top: -25px;
+}
+.help-pet {
+    margin-top: 30px;
+}
+.business {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+
+}
+.business h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 560px;
+    text-align: center;
+}
+.paid {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 50px; 
+    
+}
+.paid-text {
+    align-items: center;
+    text-align: starts;
+    height: 300px;
+    margin-top: 100px;
+}
+.paid h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 320px;
+    margin-bottom: 15px;
+}
+.paid p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 410px;
+    margin-bottom: 25px;
+}
+.paid img {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;  
+}
+.grow {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 30px;
+    background-color: #fce8f8;
+}
+.grow-text {
+    align-items: center;
+    text-align: starts;
+    height: 300px;
+    margin-top: 150px;
+}
+.grow h1 {
+    font-size: 40px;
+    font-weight: 800;
+    width: 320px;
+    margin-bottom: 15px;
+}
+.grow p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 410px;
+    margin-bottom: 25px;
+}
+.grow img {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;  
+    margin-top: 50px;  
+}
+
+.footer {
+    background-color: #242323;
+    height: 40rem;
+}
+
+.footer-first {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px,250px));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-second {
+    
+    
+}
+.footer-first h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+.footer-text {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px,250px));
+
+}
+.footer-first a {
+    color: #999797;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.footer-first a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px,250px));;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 20px;
+    margin-right: 3rem;  
+}
+.footer-box {
+    display: flex;
+    justify-content: center;
+}
+.footer-letter {
+    display: flex;
+    flex-direction: column;
+}
+.footer-box h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-box a {
+    color: #999797;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.footer-box a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.mobile-app {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+   margin-top: 100px;
+   margin-left: 200px;
+}
+.bn46 {
+    width: 150px;
+    height: 50px;
+}
+.bn45 {
+    width: 150px;
+    height: 50px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 280px;
+    margin-top: 30px;
+}
+.copyright img {
+    width: 25px;
+    height: 20px;
+}
+.copyright a{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999797;
+    margin-left: 10px;
+}
+.copyright a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 53rem;
+    margin-top: -15px;
+}
+.social a{
+    height: 18px;
+    width: 20px;
+    color: #999797;
+    gap: 1rem;
+}
+
+
+@media (max-width: 1440px) {
+    header  {
+        margin-bottom: 0;
+    }
+    .header-img {
+        width: 100%;
+        overflow: hidden;
+    }
+    .button {
+        margin-left: 69rem;
+    }   
+}
+@media (max-width: 1024px) {
+    .header {
+        margin-top: 0;
+    }
+    .header-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -9rem;
+    }
+    .button {
+        margin-left: 50rem;
+    }
+    .doordash {
+        height: 5rem;
+    }
+    .near{
+        height: 30rem;
+    }
+    .near h1{
+        font-size: 30px;
+    }
+    .feature-content {
+        gap: 50px;
+        margin-top: 3rem;
+    }
+    .eat {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: -60px;
+    }
+    .eat-text {
+        margin-left: 2rem;
+    }  
+    .eat p {
+        width: 350px;
+    }
+    .store p {
+        width: 350px;
+    }
+    .store img {
+        margin-right: -5rem;
+    }
+    .help p {
+        font-size: 18px;
+        font-weight: 500;
+        width: 450px;
+        margin-bottom: 15px;
+    }
+    .help-flower {
+        margin-top: 0px;
+    }
+    .help-pet {
+        margin-top: 0px;
+    }
+    .paid p {
+        font-size: 18px;
+        font-weight: 500;
+        width: 340px;
+        margin-bottom: 25px;
+    }
+    .paid img {
+        margin-right: -7rem;
+        width: 700px;
+        height: 500px;
+        border-radius: 10px;  
+    }
+    .grow p {
+        font-size: 18px;
+        font-weight: 500;
+        width: 340px;
+        margin-bottom: 25px;
+    }
+    .grow img {
+        margin-left: -7rem;
+        width: 700px;
+        height: 500px;
+        border-radius: 10px;  
+        
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        margin-top: 0;
+    }
+    .header-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -15rem;
+        object-fit: fill;
+    }
+    .button {
+        margin-left: 30rem;
+    }
+    .doordash {
+        height: 5rem;
+    }
+    .first {
+        margin-top: -100rem;
+    }
+    .near{
+        margin-top: -10rem;
+        height: 30rem;
+        margin-bottom: 13rem;
+    }
+    .near h1{
+        font-size: 25px;
+    }
+    .doordash img {
+        height: 20px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .up {
+        font-size: 15px;
+    }
+    .near svg{
+        margin-right: 15rem;
+    }
+    .near input {
+        font-size: 14px;
+    }
+    .near span {
+        margin-left: 15rem;
+        margin-bottom: -7.5rem;
+    }
+    .near p {
+        font-size: 13px;
+    }
+    .near i{
+        margin-right: 10rem;
+    }
+    .feature {
+        display: flex;
+        flex-direction: row;
+    }
+    .feature-content {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 0;
+        padding-top: -10rem;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .row-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 15rem;
+    }
+    .row p {
+        margin-bottom: 20px;
+    }
+    .row span {
+        margin-top: -1.5rem;
+        margin-left: 9rem;
+    }  
+    .row .span-1{
+        margin-left: 4rem;
+    }
+    .eat img {
+        width: 30rem;
+        margin-right: -4rem;
+    }  
+    .drink img {
+        width: 30rem;
+        margin-left: -4rem;
+    }  
+    .store-text {
+        margin-left: 2rem;
+        
+    }
+    .store img {
+        width: 30rem;
+        margin-right: -5rem;
+    }
+    .help h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        width: 350px;
+    }
+    .help p {
+        font-size: 18px;
+        font-weight: 500;
+        width: 350px;
+        margin-bottom: 15px;
+    }
+    .help-flower {
+        margin-top: -55px;
+    }
+    .help-pet {
+        margin-top: -20px;
+    }
+    .paid-text{
+        margin-left: 2rem;
+    }
+    .paid img {
+        margin-right: -7rem;
+        width: 466px;  
+        
+    }
+    .grow-text {
+        margin-right: 2rem;
+    }
+    .grow img {
+        margin-left: -7rem;
+        width: 466px; 
+        
+    }
+    .footer{
+        height: 95rem;
+    }
+    .footer-first {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       margin-top: 0px;
+       margin-left: 0px;
+    }
+    .copyright {
+        margin-right: 0px;
+        margin-bottom: 2rem;
+    }
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 425px) {
+    header {
+        background-color: rgb(253, 126, 8);
+        height: 25rem;
+    }
+    .header-img {
+        display: none;
+    }
+    .near input {
+        position: absolute;
+        z-index: 99;
+    }
+    .button {
+        display: none;
+    }
+    .button-2 {
+        display: flex;       
+        align-items: center;
+        justify-content: center;
+        margin-left:11rem;
+        height: 3rem;
+        overflow: hidden;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .up {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.doordash img {
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    position: absolute;
+    z-index: 99;
+}
+.first {
+    margin-top: -50rem;
+}
+.near{
+    margin-top: 3rem;
+    height: 20rem;
+    margin-bottom: 13rem;
+}
+.near h1{
+    font-size: 20px;
+}
+.btn {
+    font-size: 15px;
+}
+.up {
+    font-size: 15px;
+}
+.near svg{
+    margin-right: 15rem;
+}
+
+.near input {
+    font-size: 12px;
+}
+.near span {
+    margin-left: 15rem;
+    margin-bottom: -4.5rem;
+}
+.near p {
+    display: none;
+}
+.near a{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 8px 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+    height: 20px;
+    margin-top: 6rem;
+    cursor: pointer;
+}
+.near i{
+    margin-right: 2.5rem;
+}
+.feature-content {
+    margin-bottom: 0;
+}
+
+.row img {
+    width: 14rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-bottom: 0px;
+
+}
+.row-text {
+    margin-right: 25px;
+}
+.row h3 {
+    font-size: 25px;
+    font-weight: 800;
+    width: 140px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.row p {
+    
+    font-size: 15px;
+    width: 180px;
+}
+.row a {
+    font-size: 15px;
+    
+}
+.row span {
+    font-size: 15px;
+    list-style: none;
+    overflow: hidden;
+    color: rgb(248, 84, 7);
+    margin-top: -1rem;
+    margin-left: 6rem;
+    cursor: pointer;
+    
+}
+.row .span-1 {
+    margin-left: 4rem;
+}
+.eat {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.eat-text {
+    height: 280px;
+}
+.eat h1 {
+    font-size: 30px;
+}
+.eat h4 {
+    font-size: 20px;
+}
+.eat p {
+    font-size: 14px;
+}
+.eat img {
+    width: 28rem;
+    height: 15rem;  
+    margin-bottom: 0rem; 
+}
+.drink {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.drink-text {
+    margin-top: -7rem;
+    margin-left: 2rem;
+}
+.drink h1 {
+    font-size: 30px;
+    width: 18rem;
+}
+.drink p {
+    font-size: 14px;
+    width: 20rem;
+}
+.drink img {
+    width: 28rem;
+    height: 15rem;  
+    margin-bottom: 0rem; 
+}
+.grocery {
+    margin-top: -4rem;
+}
+.grocery img {
+    height: 500px;
+}
+.grocery h1 {
+    font-size: 30px;
+    width: 400px;
+}
+.grocery h4 {
+    font-size: 20px;
+}
+.grocery p {
+    font-size: 14px;
+    width: 400px;
+}
+.store {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -2rem;
+}
+.store-text {
+    margin-top: -3rem;
+    margin-left: -2rem;
+}
+.store h1 {
+    font-size: 30px;
+    width: 18rem;
+}
+.store p {
+    font-size: 14px;
+    width: 20rem;
+}
+.store img {
+    width: 28rem;
+    height: 15rem;  
+    margin-bottom: 0rem; 
+}
+.gift {
+    background-color: #ffe5f9;
+    background-blend-mode: lighten;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gift h1 {
+    font-size: 30px;
+    width: 400px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.gift-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+    border: none;
+}
+.help img{
+    width: 400px;
+    height: 250px;
+}
+.help h1{
+    font-size: 30px;
+    font-weight: 800;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.help p {
+    font-size: 14px;
+    width: 350px;
+    margin-bottom: 15px;
+}
+.rule p{
+    font-size: 13px;
+    margin-bottom: 0;
+}
+.help-flower {
+    margin-top: 0px;
+}
+.help-pet {
+    margin-top: 0px;
+}
+.business {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+
+}
+.business h1 {
+    font-size: 30px;
+    font-weight: 800;
+    width: 400px;
+    text-align: center;
+}
+.paid {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    margin-top: 50px; 
+    
+}
+.paid-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    margin-top: 0px;
+}
+.paid h1 {
+    font-size: 30px;
+    font-weight: 800;
+    width: 320px;
+    margin-bottom: 15px;
+}
+.paid p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 350px;
+    margin-bottom: 25px;
+}
+.paid img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;  
+}
+.grow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    margin-top: 0px; 
+    background-color: transparent;
+    
+}
+.grow-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    margin-top: 0px;
+}
+.grow h1 {
+    font-size: 30px;
+    font-weight: 800;
+    width: 320px;
+    margin-bottom: 15px;
+}
+.grow p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 350px;
+    margin-bottom: 25px;
+}
+.grow img {
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;  
+}
+.footer {
+    height: 100rem;
+}
+.copyright {
+    display: grid;
+    grid-template-columns: repeat(4 ,auto, auto);
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: 2rem;
+}
+.copyright img{
+    margin-left: 4rem;
+    margin-bottom: -1rem;
+}
+.copyright a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999797;
+    margin-left: 0rem;
+    margin-right: 5rem;
+}
+}
+@media (max-width: 375px) {
+    header {
+        background-color: rgb(253, 126, 8);
+        height: 25rem;
+    }
+    .header-img {
+        display: none;
+    }
+    .near input {
+        position: absolute;
+        z-index: 99;
+    }
+    .button {
+        display: none;
+    }
+    .button-2 {
+        display: flex;       
+        align-items: center;
+        justify-content: center;
+        margin-left:11rem;
+        height: 3rem;
+        overflow: hidden;
+    }
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .up {
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.doordash img {
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    position: absolute;
+    z-index: 99;
+}
+.first {
+    margin-top: -50rem;
+}
+.near{
+    margin-top: 3rem;
+    height: 20rem;
+    margin-bottom: 13rem;
+}
+.near h1{
+    font-size: 20px;
+}
+.btn {
+    font-size: 15px;
+}
+.up {
+    font-size: 15px;
+}
+.near svg{
+    margin-right: 15rem;
+}
+
+.near input {
+    font-size: 12px;
+}
+.near span {
+    margin-left: 15rem;
+    margin-bottom: -2.5rem;
+}
+.near p {
+    display: none;
+}
+.near a{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 8px 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+    height: 20px;
+    margin-top: 6rem;
+    cursor: pointer;
+}
+.near i{
+    margin-right: 2.5rem;
+}
+.row img {
+    width: 14rem;
+    height: 10rem;
+    margin: 0 auto;
+    margin-bottom: 0px;
+
+}
+.row-text {
+    margin-right: 25px;
+}
+.row h3 {
+    font-size: 25px;
+    font-weight: 800;
+    width: 140px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.row p {
+    
+    font-size: 15px;
+    width: 180px;
+}
+.row a {
+    font-size: 15px;
+    
+}
+.row span {
+    font-size: 15px;
+    list-style: none;
+    overflow: hidden;
+    color: rgb(248, 84, 7);
+    margin-top: -1rem;
+    margin-left: 6rem;
+    cursor: pointer;
+    
+}
+.row .span-1 {
+    margin-left: 4rem;
+}
+.eat-text {
+    margin-left: 6rem;
+}
+.drink-text {
+    margin-left: 6rem;
+}
+.grocery {
+    margin-top: -4rem;
+    margin-bottom: -3rem;
+}
+.grocery img {
+    height: 400px;
+}
+.grocery h1 {
+    font-size: 30px;
+    width: 350px;
+}
+.grocery h4 {
+    font-size: 20px;
+}
+.grocery p {
+    font-size: 14px;
+    width: 360px;
+}
+
+}
+@media (max-width: 320px) {
+    .button-2 {
+        margin-left: 8rem;
+    }
+    .feature-content {
+        margin-bottom: 0;
+    }
+    
+    .row img {
+        width: 10rem;
+        height: 7rem;
+        margin-top: 2rem;
+    
+    }
+    .row-text {
+        margin-right: 45px;
+    }
+    .eat-text {
+        height: 280px;
+        margin-left: 7rem;
+    }
+    .eat h1 {
+        font-size: 25px;
+    }
+    .eat h4 {
+        font-size: 18px;
+    }
+    .eat p {
+        font-size: 12px;
+        width: 300px;
+    }
+   
+    .drink-text {
+        margin-top: -7rem;
+        margin-left: 7rem;
+    }
+    .drink h1 {
+        font-size: 25px;
+        width: 18rem;
+    }
+    .drink p {
+        font-size: 12px;
+        width: 300px;
+    }
+    .grocery {
+        margin-top: -4rem;
+    }
+    .grocery img {
+        height: 400px;
+    }
+    .grocery h1 {
+        font-size: 25px;
+        width: 300px;
+    }
+    .grocery h4 {
+        font-size: 18px;
+    }
+    .grocery p {
+        font-size: 12px;
+        width: 300px;
+    }
+    .store {
+        margin-top: -4rem;
+    }
+    .store-text {
+        margin-top: -3rem;
+        margin-left: 2rem;
+    }
+    .store h1 {
+        font-size: 25px;
+        width: 18rem;
+    }
+    .store p {
+        font-size: 12px;
+        width: 300px;
+    }
+    
+    .gift h1 {
+        font-size: 25px;
+        width: 300px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .gift-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -3rem;
+        margin-bottom: 5rem;
+        border: none;
+    }
+    .help img{
+        width: 400px;
+        height: 250px;
+    }
+    .help h1{
+        font-size: 25px;
+        font-weight: 800;
+        width: 300px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    .help p {
+        font-size: 12px;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .rule p{
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+    .help-flower {
+        margin-top: 0px;
+    }
+    .help-pet {
+        margin-top: 0px;
+    }
+    .business {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+    .business h1 {
+        font-size: 25px;
+        font-weight: 800;
+        width: 300px;
+        text-align: center;
+    }
+    .paid {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        margin-top: 30px; 
+        
+    }
+    .paid-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 300px;
+        margin-top: 0px;
+    }
+    .paid h1 {
+        font-size: 25px;
+        font-weight: 800;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .paid p {
+        font-size: 12px;
+        font-weight: 400;
+        width: 300px;
+        margin-bottom: 25px;
+    }
+    .paid img {
+        width: 450px;
+        height: 300px;
+        border-radius: 10px;  
+    }
+    .grow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        margin-top: 0px; 
+        background-color: transparent;
+        
+    }
+    .grow-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 300px;
+        margin-top: 0px;
+    }
+    .grow h1 {
+        font-size: 25px;
+        font-weight: 800;
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    .grow p {
+        font-size: 12px;
+        font-weight: 400;
+        width: 280px;
+        margin-bottom: 25px;
+    }
+    .grow img {
+        width: 450px;
+        height: 300px;
+        border-radius: 10px;  
+    }
+    .footer {
+        height: 100rem;
+    }
+    .copyright img{
+        margin-left: 3rem;
+        margin-bottom: -1rem;
+    }
+    .copyright a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: 400;
+        color: #999797;
+        margin-left: 0rem;
+        margin-right: 3rem;
+    }
+}
